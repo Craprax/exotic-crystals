@@ -9,5 +9,5 @@ import net.minecraft.util.Identifier;
 public class ModItemGroup {
 
     public static final ItemGroup EXOTIC_CRYSTALS = FabricItemGroupBuilder
-            .build(new Identifier(ExoticCrystals.MOD_ID, "exotic_crystals"), () -> new ItemStack(ModItems.ROOT_CRYSTAL));
+            .build(new Identifier(ExoticCrystals.MOD_ID, "exotic_crystals"), () -> new ItemStack(ModItems.ROOTICIUM_CRYSTAL));
 }
