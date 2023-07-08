@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "exotic-crystals",
+	"version": "${version}",
+	"name": "Exotic Crystals",
+	"description": "Unleash the power of unique crystals in Minecraft! This mod introduces a range of extraordinary crystals that serve as valuable resources. Use them to craft powerful tools and unlock a world of hidden wonders.",
+	"authors": [
+		"Craprax"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/exotic-crystals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.craprax.ExoticCrystals"
+		],
+		"client": [
+			"net.craprax.ExoticCrystalsClient"
+		]
+	},
+	"mixins": [
+		"exotic-crystals.mixins.json",
+		{
+			"config": "exotic-crystals.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
