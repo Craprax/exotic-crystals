@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exotic_crystals:block/phoenixit_ore"
+  }
+}
