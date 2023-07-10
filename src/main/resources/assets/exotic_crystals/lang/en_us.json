@@ -1,10 +1,13 @@
 {
   "item.exotic_crystals.rooticium_crystal": "Rooticium Crystal",
+  "item.exotic_crystals.phoenixit_crystal": "Phoenixit Crystal",
   "item.exotic_crystals.rooticium_shard": "Rooticium Shard",
   "item.exotic_crystals.phoenixit_shard": "Phoenixit Shard",
   "item.exotic_crystals.deltarium_shard": "Deltarium Shard",
 
   "block.exotic_crystals.phoenixit_ore": "Phoenixit Ore",
+
+  "item.exotic_crystals.phoenixit_bow": "Phoenixit Bow",
 
   "itemGroup.exotic_crystals.exotic_crystals": "Exotic Crystals"
 }

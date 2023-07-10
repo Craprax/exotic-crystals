@@ -1,0 +1,6 @@
+{
+  "parent": "exotic_crystals:item/phoenixit_bow",
+  "textures": {
+    "layer0": "exotic_crystals:item/phoenixit_bow_pulling_2"
+  }
+}

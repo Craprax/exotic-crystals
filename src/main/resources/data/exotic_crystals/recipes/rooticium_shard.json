@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "exotic_crystals:rooticium_crystal"
+    }
+  },
+  "result": {
+    "item": "exotic_crystals:rooticium_shard",
+    "count": 4
+  }
+}
