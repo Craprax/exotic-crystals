@@ -20,6 +20,12 @@ public class ModBlocks {
                     .strength(1f)
                     .requiresTool()),
             ModItemGroup.EXOTIC_CRYSTALS);
+
+    public static final Block ROOTICIUM_LAMP = registerBlock("rooticium_lamp",
+            new Block(FabricBlockSettings.of(Material.METAL)
+                    .strength(1f)
+                    .luminance(10).nonOpaque()),
+            ModItemGroup.EXOTIC_CRYSTALS);
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(ExoticCrystals.MOD_ID, name), block);
