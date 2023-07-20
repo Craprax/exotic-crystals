@@ -26,6 +26,12 @@ public class ModBlocks {
                     .strength(1f)
                     .luminance(10).nonOpaque()),
             ModItemGroup.EXOTIC_CRYSTALS);
+
+    public static final Block PHOENIXIT_CRYSTAL_ORE = registerBlock("phoenixit_crystal_ore",
+            new Block(FabricBlockSettings.of(Material.METAL)
+                    .strength(1f)
+                    .luminance(8).nonOpaque()),
+            ModItemGroup.EXOTIC_CRYSTALS);
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(ExoticCrystals.MOD_ID, name), block);
